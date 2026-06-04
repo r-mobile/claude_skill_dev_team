@@ -1,0 +1,28 @@
+{
+  "name": "dev-automation",
+  "version": "0.2.0",
+  "description": "Плагин для автоматизации полного цикла разработки мобильных приложений (Native iOS/Android, Flutter). Включает skills для анализа требований, проектирования архитектуры, параллельной разработки, интеграции кода и тестирования. С v0.2.0: State Machine, Validation & Error Handling, Performance Optimizations.",
+  "author": {
+    "name": "Roman Marchenko"
+  },
+  "keywords": [
+    "мобильная разработка",
+    "автоматизация",
+    "управление проектом",
+    "code review",
+    "тестирование",
+    "архитектура",
+    "параллельная разработка",
+    "state machine",
+    "валидация",
+    "error handling"
+  ],
+  "features": {
+    "state_management": true,
+    "validation_framework": true,
+    "context_optimization": true,
+    "async_questions": true,
+    "incremental_integration": true,
+    "parallel_development": true
+  }
+}
