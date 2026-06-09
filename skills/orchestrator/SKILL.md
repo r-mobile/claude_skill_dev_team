@@ -1,5 +1,6 @@
 ---
-description: Главный skill для управления полным циклом разработки мобильного приложения - от анализа требований до финального тестирования
+name: orchestrator
+description: Главный skill для управления полным циклом разработки мобильного приложения - от анализа требований до финального тестирования. Use when the user wants to "разработать мобильное приложение", "создать приложение", "build a mobile app", or describes a feature set for iOS/Android/Flutter.
 model: sonnet
 optimized_for: coordination_and_context_retention
 state_management: true

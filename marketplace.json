@@ -1,0 +1,87 @@
+{
+  "name": "dev-automation",
+  "displayName": "Dev Automation",
+  "version": "0.2.0",
+  "description": "Полный цикл разработки мобильных приложений (iOS/Android/Flutter) с параллельной разработкой и AI-координацией. Управляет процессом от анализа требований до финального тестирования.",
+  "author": {
+    "name": "Roman Marchenko",
+    "email": "rmarchenko@devcats.kg"
+  },
+  "repository": "https://github.com/r-mobile/claude_skill_dev_team",
+  "homepage": "https://github.com/r-mobile/claude_skill_dev_team",
+  "license": "MIT",
+  "keywords": ["mobile", "ios", "android", "flutter", "kotlin", "swift", "dart", "development", "automation", "ai"],
+  "categories": ["development", "automation", "mobile"],
+  "install": {
+    "type": "github",
+    "repo": "r-mobile/claude_skill_dev_team",
+    "branch": "main",
+    "pluginFile": "dev-automation.plugin"
+  },
+  "components": {
+    "skills": [
+      {
+        "name": "orchestrator",
+        "description": "Главный координатор — запускает весь цикл разработки"
+      },
+      {
+        "name": "analyzer",
+        "description": "Создает подробное ТЗ из простого описания"
+      },
+      {
+        "name": "architect",
+        "description": "Проектирует архитектуру и API контракты"
+      },
+      {
+        "name": "dev-lead",
+        "description": "Разбивает архитектуру на задачи, распределяет между разработчиками"
+      },
+      {
+        "name": "developer",
+        "description": "Выполняет конкретную разработческую задачу (Haiku — экономичная)"
+      },
+      {
+        "name": "integrator",
+        "description": "Объединяет код от нескольких разработчиков"
+      },
+      {
+        "name": "code-reviewer",
+        "description": "Детальный code review по best practices"
+      },
+      {
+        "name": "tester",
+        "description": "Базовое тестирование — компиляция и функционал (Haiku — экономичная)"
+      }
+    ],
+    "agents": [
+      {
+        "name": "task-orchestrator",
+        "description": "Управляет параллельным запуском нескольких Developer skills"
+      }
+    ]
+  },
+  "requirements": {
+    "mcpServers": [
+      {
+        "name": "context7",
+        "description": "Нужен для получения актуальной документации Kotlin/Swift/Dart",
+        "required": false
+      }
+    ]
+  },
+  "modes": {
+    "standard": {
+      "description": "Баланс качество/цена. Sonnet для координации, Haiku для кодирования.",
+      "savings": "30-40% дешевле Premium"
+    },
+    "premium": {
+      "description": "Максимальное качество. Opus для Analyzer, Architect, Code-Reviewer.",
+      "use_case": "Production-critical, финансовые, healthcare приложения"
+    }
+  },
+  "platforms": ["iOS (Swift)", "Android (Kotlin)", "Flutter (Dart)"],
+  "changelog": {
+    "0.2.0": "State Machine, Validation & Error Handling, Performance Optimizations",
+    "0.1.0": "Первая версия с полным циклом разработки"
+  }
+}

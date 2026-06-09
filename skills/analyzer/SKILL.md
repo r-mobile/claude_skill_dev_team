@@ -1,5 +1,6 @@
 ---
-description: Анализирует простое описание задачи и создает подробное техническое задание со всеми аспектами разработки для мобильного приложения
+name: analyzer
+description: Анализирует простое описание задачи и создает подробное техническое задание со всеми аспектами разработки для мобильного приложения. Use when "нужен анализ требований", "создай ТЗ", or Orchestrator delegates requirements analysis.
 model: sonnet
 model_premium: opus
 optimized_for: requirements_analysis_and_detailed_specs

@@ -1,5 +1,6 @@
 ---
-description: Объединяет код от нескольких разработчиков, разрешает конфликты, и проверяет что все компоненты работают вместе
+name: integrator
+description: Объединяет код от нескольких разработчиков, разрешает конфликты, и проверяет что все компоненты работают вместе. Use when "объедини код", "нужна интеграция", or Orchestrator delegates code merging after parallel development.
 model: sonnet
 optimized_for: conflict_resolution_and_integration
 ---

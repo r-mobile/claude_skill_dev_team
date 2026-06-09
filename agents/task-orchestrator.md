@@ -1,10 +1,29 @@
 ---
-title: "Task Orchestrator (Оркестратор задач)"
-description: "Управляет параллельным запуском нескольких Developer skills для выполнения независимых задач разработки"
-when:
-  - "когда нужно распределить несколько разработческих задач между разработчиками"
-  - "когда нужно управлять параллельной разработкой"
-  - "когда нужно отследить статус нескольких разработчиков"
+name: task-orchestrator
+description: >
+  Manages parallel execution of multiple Developer skills for independent development tasks.
+  Use this agent when Dev-Lead has distributed tasks across multiple developers and parallel
+  execution is needed to maximize efficiency.
+
+  <example>
+  Context: Dev-Lead has split the work into 4 independent modules
+  user: "Запусти параллельную разработку для 4 разработчиков"
+  assistant: "Запускаю Task Orchestrator для параллельного выполнения задач."
+  <commentary>
+  Multiple independent development tasks require parallel execution via this agent.
+  </commentary>
+  </example>
+
+  <example>
+  Context: User wants to check development progress
+  user: "Какой статус у разработчиков?"
+  assistant: "Проверяю статус через Task Orchestrator."
+  <commentary>
+  Tracking progress of parallel developers is this agent's responsibility.
+  </commentary>
+  </example>
+model: sonnet
+color: blue
 ---
 
 # Task Orchestrator Agent

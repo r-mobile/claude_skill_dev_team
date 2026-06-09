@@ -1,5 +1,6 @@
 ---
-description: Проектирует архитектуру мобильного приложения на основе ТЗ, определяет компоненты, интеграционные точки и API контракты
+name: architect
+description: Проектирует архитектуру мобильного приложения на основе ТЗ, определяет компоненты, интеграционные точки и API контракты. Use when "спроектируй архитектуру", "нужна архитектура приложения", or Orchestrator delegates architecture design.
 model: sonnet
 model_premium: opus
 optimized_for: architecture_design_and_complex_analysis

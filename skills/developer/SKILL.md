@@ -1,5 +1,6 @@
 ---
-description: Выполняет отдельную разработческую задачу на основе фокусированных требований от Dev-Lead, создает код с документацией
+name: developer
+description: Выполняет отдельную разработческую задачу на основе фокусированных требований от Dev-Lead, создает код с документацией. Use when Dev-Lead delegates a specific coding task to implement a module or feature.
 model: haiku
 optimized_for: cost_efficient_code_generation_parallel_execution
 cost_optimization: "60% cheaper than Sonnet, suitable for focused coding tasks"

@@ -1,0 +1,10 @@
+{
+  "name": "dev-automation",
+  "version": "0.2.0",
+  "description": "Полный цикл разработки мобильных приложений (iOS/Android/Flutter) с параллельной разработкой и AI-координацией",
+  "author": {
+    "name": "Roman Marchenko"
+  },
+  "repository": "https://github.com/r-mobile/claude_skill_dev_team",
+  "keywords": ["mobile", "ios", "android", "flutter", "kotlin", "swift", "dart", "development", "automation"]
+}

@@ -1,5 +1,6 @@
 ---
-description: Проводит базовое тестирование приложения - проверяет что приложение компилируется, запускается и основной функционал работает
+name: tester
+description: Проводит базовое тестирование приложения - проверяет что приложение компилируется, запускается и основной функционал работает. Use when "протестируй приложение", "проверь работоспособность", or Orchestrator delegates final testing.
 model: haiku
 optimized_for: cost_efficient_basic_testing
 cost_optimization: "60% cheaper than Sonnet, sufficient for basic functionality checks"

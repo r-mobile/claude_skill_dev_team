@@ -1,5 +1,6 @@
 ---
-description: Разбивает архитектуру на конкретные разработческие задачи, определяет зависимости, распределяет работу между разработчиками и проводит code review
+name: dev-lead
+description: Разбивает архитектуру на конкретные разработческие задачи, определяет зависимости, распределяет работу между разработчиками и проводит code review. Use when "распредели задачи", "нужен tech lead", or Orchestrator delegates task planning.
 model: sonnet
 optimized_for: task_management_and_code_review
 ---

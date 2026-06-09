@@ -1,5 +1,6 @@
 ---
-description: Проводит детальный code review объединенного кода на соответствие best practices, стилю, безопасности и архитектуре
+name: code-reviewer
+description: Проводит детальный code review объединенного кода на соответствие best practices, стилю, безопасности и архитектуре. Use when "сделай code review", "проверь код", or Orchestrator delegates quality review of integrated code.
 model: sonnet
 model_premium: opus
 optimized_for: detailed_code_analysis_and_quality_assurance
