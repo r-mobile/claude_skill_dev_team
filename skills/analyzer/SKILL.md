@@ -72,6 +72,16 @@ optimized_for: requirements_analysis_and_detailed_specs
 - Нет критичных багов
 - Приложение запускается на целевых устройствах
 
+## 📥 Pipeline режим (автоматический запуск из Orchestrator)
+
+При запуске из Orchestrator в начале контекста будет строка `📁 PIPELINE_DIR: /path/...`
+
+1. **Прочитай** `{PIPELINE_DIR}/context.json` (Read tool) — убедись что phase = ANALYSIS
+2. **Входные данные** берутся из context.json (описание задачи, платформа, режим)
+3. **Если что-то неясно — немедленно останови работу и задай вопрос.** Не угадывай, не придумывай — жди ответа от Orchestrator/пользователя.
+4. После завершения **сохрани** ТЗ в `{PIPELINE_DIR}/requirements.md` (Write tool)
+5. Сообщи одной строкой: `✅ requirements.md сохранен` — Orchestrator продолжит автоматически
+
 ## Процесс создания ТЗ:
 
 1. Прочитай входную информацию от Orchestrator
