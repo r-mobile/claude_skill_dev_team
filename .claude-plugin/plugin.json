@@ -6,5 +6,7 @@
     "name": "Roman Marchenko"
   },
   "repository": "https://github.com/r-mobile/claude_skill_dev_team",
+  "homepage": "https://github.com/r-mobile/claude_skill_dev_team",
+  "license": "MIT",
   "keywords": ["mobile", "ios", "android", "flutter", "kotlin", "swift", "dart", "development", "automation"]
 }

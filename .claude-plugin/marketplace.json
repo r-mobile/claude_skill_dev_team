@@ -1,0 +1,25 @@
+{
+  "name": "dev-automation-marketplace",
+  "owner": {
+    "name": "Roman Marchenko",
+    "email": "rmarchenko@devcats.kg"
+  },
+  "plugins": [
+    {
+      "name": "dev-automation",
+      "source": "./",
+      "displayName": "Dev Automation",
+      "description": "Полный цикл разработки мобильных приложений (iOS/Android/Flutter) с параллельной разработкой и AI-координацией. Управляет процессом от анализа требований до финального тестирования.",
+      "version": "0.4.0",
+      "author": {
+        "name": "Roman Marchenko",
+        "email": "rmarchenko@devcats.kg"
+      },
+      "homepage": "https://github.com/r-mobile/claude_skill_dev_team",
+      "repository": "https://github.com/r-mobile/claude_skill_dev_team",
+      "license": "MIT",
+      "category": "development",
+      "keywords": ["mobile", "ios", "android", "flutter", "kotlin", "swift", "dart", "development", "automation", "ai"]
+    }
+  ]
+}
