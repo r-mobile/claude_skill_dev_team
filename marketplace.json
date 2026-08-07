@@ -1,7 +1,7 @@
 {
   "name": "dev-automation",
   "displayName": "Dev Automation",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "description": "Полный цикл разработки мобильных приложений (iOS/Android/Flutter) с параллельной разработкой и AI-координацией. Управляет процессом от анализа требований до финального тестирования.",
   "author": {
     "name": "Roman Marchenko",
@@ -81,6 +81,8 @@
   },
   "platforms": ["iOS (Swift)", "Android (Kotlin)", "Flutter (Dart)"],
   "changelog": {
+    "0.4.0": "Standalone-режим для всех skills — прямой вызов без Orchestrator (в т.ч. по ссылке на Jira), самостоятельная оценка достаточности ТЗ/архитектуры, гибридные уточняющие вопросы, короткий итоговый отчет",
+    "0.3.0": "Версия не задокументирована в changelog (несоответствие с .claude-plugin/plugin.json на момент правки)",
     "0.2.0": "State Machine, Validation & Error Handling, Performance Optimizations",
     "0.1.0": "Первая версия с полным циклом разработки"
   }

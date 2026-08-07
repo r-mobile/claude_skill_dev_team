@@ -1,6 +1,6 @@
 {
   "name": "dev-automation",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Полный цикл разработки мобильных приложений (iOS/Android/Flutter) с параллельной разработкой и AI-координацией",
   "author": {
     "name": "Roman Marchenko"
